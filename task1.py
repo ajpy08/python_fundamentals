@@ -84,6 +84,7 @@ class Market:
         errorMessage
     else:
       print('Producto no disponible')
+  
   def surtido(self, producto, cantidad):
     if self.active:
       if producto == 'sabritas':
