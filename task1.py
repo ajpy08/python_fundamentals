@@ -25,9 +25,6 @@ class Market:
   def __str__(self):
     return f'Bienvenido: {self.admin_name}, el total en caja es ${self.caja}'
 
-  # productos
-  productos = ['sabritas', 'refrescos', 'galletas', 'helados', 'jugos']
-
   # precios
   precio_sabritas = 15
   precio_refrescos = 18
